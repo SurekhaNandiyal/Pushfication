@@ -2,16 +2,18 @@
 
 
 ## API:
-### POST: 
+### Register User: 
   Eg: http://localhost:3000/registerUser?username=bbc1&accessToken=4234
   **Params : username, accessToken**
-### GET: 
+  **HTTP Post**
+### Get all Registered Users: 
   Eg: http://localhost:3000/getAllRegisteredUsers
   **No Params**
-### POST: 
+  **HTTP Get**
+### Push Notification: 
   Eg: http://localhost:3000/pushNotification?body=Good Morning&type=note&username=bbcUser4&title=Greetings
   **Params: username, type, body, url, file_name, file_type, file_url, source_device_iden, client_iden, channel_tag, email, guid**
-  
+  **HTTP Post**
   **Note:**
     - type - Set to note
     - title - The note's title.
